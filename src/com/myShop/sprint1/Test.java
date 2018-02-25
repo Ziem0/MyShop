@@ -21,7 +21,8 @@ public class Test {
         basket.addProduct(subaru);
         basket.addProduct(kawasaki);
 
-        System.out.println(basket.getProductByID(2));
+        System.out.println(basket.getProductByID(2)+ "\n" +
+                "=======================================================================");
         basket.removeProduct(honda);
 
         Iterator iterator = basket.getIterator();

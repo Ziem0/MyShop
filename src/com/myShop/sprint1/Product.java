@@ -30,14 +30,18 @@ public class Product {
         return ID;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public ProductCategory getProductCategory() {
         return productCategory;
     }
 
     public String toString() {
         String categoryClassName = this.productCategory.getClass().getSimpleName();
-        String headline = categoryClassName.equals("FeaturedProductCategory") ? categoryClassName : "";
-        return String.format("%s ID:%d name:%s default price:%.2f",headline, this.ID, this.name, this.defaultPrice);
+        String headline = categoryClassName.equals("FeaturedProductCategory") ? categoryClassName : "\t\t";
+        return String.format("%.8s ID:%-5d name:%s default price:%.2f",headline, this.ID, this.name, this.defaultPrice);
     }
 
     public static ArrayList<Product> getAllProducts() {
@@ -53,6 +57,27 @@ public class Product {
         }
         return selectedProducts;
     }
+
+    public static ArrayList<Product> getAllProductsByName(String name) {
+        ArrayList<Product> selectedProducts = new ArrayList<>();
+        for (Product product : productList) {
+            if (product.name.equals(name)) {
+                selectedProducts.add(product);
+            }
+        }
+        return selectedProducts;
+    }
+
+    public static ArrayList<Product> getAllProductsByID(int id) {
+        ArrayList<Product> selectedProducts = new ArrayList<>();
+        for (Product product : productList) {
+            if (product.ID.equals(id)) {
+                selectedProducts.add(product);
+            }
+        }
+        return selectedProducts;
+    }
+
 
 
 }
