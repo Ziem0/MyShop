@@ -7,6 +7,10 @@ public class Basket {
     private ArrayList<Product> productList;
     private Iterator iterator;
 
+    public Basket() {
+        this.productList = new ArrayList<>();
+    }
+
     public Iterator getIterator() {
         return new ProductIterator();
     }
@@ -41,7 +45,7 @@ public class Basket {
         @Override
         public Product next() {
             if (this.hasNext()) {
-                return productList.get(++index);
+                return productList.get(index++);
             }
             return null;
         }
