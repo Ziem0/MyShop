@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Product {
 
     private static int index = 0;
-    private static ArrayList<Product> productList;
+    private static ArrayList<Product> productList = new ArrayList<>();
     private String name;
     private Float defaultPrice;
     private ProductCategory productCategory;
@@ -24,6 +24,7 @@ public class Product {
         this.defaultPrice = defaultPrice;
         this.productCategory = productCategory;
         this.ID = ++index;
+        productList.add(this);
     }
 
     public Integer getID() {
@@ -68,14 +69,13 @@ public class Product {
         return selectedProducts;
     }
 
-    public static ArrayList<Product> getAllProductsByID(int id) {
-        ArrayList<Product> selectedProducts = new ArrayList<>();
+    public static Product getProductByID(int id) {
         for (Product product : productList) {
             if (product.ID.equals(id)) {
-                selectedProducts.add(product);
+                return product;
             }
         }
-        return selectedProducts;
+        return null;
     }
 
 

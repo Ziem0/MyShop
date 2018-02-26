@@ -15,6 +15,10 @@ public class Basket {
         return new ProductIterator();
     }
 
+    public ArrayList<Product> getProductList() {
+        return productList;
+    }
+
     public void addProduct(Product product) {
         productList.add(product);
     }

@@ -16,6 +16,10 @@ public class Order implements Orderable {
         return status;
     }
 
+    public void resetStatus() {
+        this.status = "new";
+    }
+
     @Override
     public Boolean checkout() {
         if (this.status.equals("new")) {
