@@ -11,7 +11,5 @@ public class Test2 {
         check.action(order);
         PaymentProcess pay = new PaymentProcess();
         pay.action(order);
-
     }
-
 }
