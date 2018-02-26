@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70c43a2-238c-4e17-9e28-34acead5b366" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/myShop/exceptions/NoProductException.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint1/Basket.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint1/Basket.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint1/Product.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint1/Product.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint2/Order.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint2/Order.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint2/PaymentProcess.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint2/PaymentProcess.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint3/AbstractView.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint3/AbstractView.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint3/App.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint3/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint3/AppView.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint3/AppView.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint3/EngineVIew.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint3/EngineVIew.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/myShop/sprint3/ShopEngine.java" afterPath="$PROJECT_DIR$/src/com/myShop/sprint3/ShopEngine.java" />
-    </list>
+    <list default="true" id="f70c43a2-238c-4e17-9e28-34acead5b366" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +39,8 @@
       <file leaf-file-name="AbstractView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/myShop/sprint3/AbstractView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -393,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38440000" />
+    <option name="totallyTimeSpent" value="39661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
@@ -943,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myShop/sprint3/AbstractView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
